@@ -63,7 +63,7 @@ require_once __DIR__ . '/components/header.php';
         
         <div class="lookbook-grid">
             <div class="lb-item lb-item-1 reveal">
-                <img src="<?= SITE_URL ?>/assets/images/hero.png" alt="Editorial 1">
+                <img src="<?= SITE_URL ?>/assets/images/hero.png?v=<?= filemtime(__DIR__ . '/assets/images/hero.png') ?>" alt="Editorial 1">
                 <div class="lb-caption"><h3>The Heavyweight Silhouette</h3></div>
             </div>
             
@@ -78,7 +78,7 @@ require_once __DIR__ . '/components/header.php';
             </div>
             
             <div class="lb-item lb-item-4 reveal">
-                <img src="<?= SITE_URL ?>/assets/images/hero.png" alt="Editorial 4" style="filter: grayscale(100%);">
+                <img src="<?= SITE_URL ?>/assets/images/hero.png?v=<?= filemtime(__DIR__ . '/assets/images/hero.png') ?>" alt="Editorial 4" style="filter: grayscale(100%);">
                 <div class="lb-caption"><h3>Monochrome Vision</h3></div>
             </div>
             
@@ -88,7 +88,7 @@ require_once __DIR__ . '/components/header.php';
             </div>
             
             <div class="lb-item lb-item-6 reveal">
-                <img src="<?= SITE_URL ?>/assets/images/hero.png" alt="Editorial 6" style="object-position: top;">
+                <img src="<?= SITE_URL ?>/assets/images/hero.png?v=<?= filemtime(__DIR__ . '/assets/images/hero.png') ?>" alt="Editorial 6" style="object-position: top;">
                 <div class="lb-caption"><h3>Moyce Jae Essentials</h3></div>
             </div>
         </div>

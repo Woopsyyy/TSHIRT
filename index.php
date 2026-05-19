@@ -9,7 +9,7 @@ $featured_products = $stmt->fetchAll();
 
 <!-- Hero Section -->
 <section class="hero">
-    <img src="<?= SITE_URL ?>/assets/images/hero.png" alt="Moyce Jae Campaign" class="hero-bg">
+    <img src="<?= SITE_URL ?>/assets/images/hero.png?v=<?= filemtime(__DIR__ . '/assets/images/hero.png') ?>" alt="Moyce Jae Campaign" class="hero-bg">
     <div class="hero-content">
         <h1 class="text-display">ESSENTIAL<br>ELEVATION</h1>
         <p class="text-lead">The new standard in luxury streetwear. Redefining silhouettes.</p>
@@ -64,7 +64,7 @@ $featured_products = $stmt->fetchAll();
     <div class="container">
         <div class="grid-2" style="align-items: center;">
             <div class="reveal">
-                <img src="<?= SITE_URL ?>/assets/images/hero.png" alt="Editorial" style="border-radius: var(--radius-sm); filter: grayscale(20%);">
+                <img src="<?= SITE_URL ?>/assets/images/hero.png?v=<?= filemtime(__DIR__ . '/assets/images/hero.png') ?>" alt="Editorial" style="border-radius: var(--radius-sm); filter: grayscale(20%);">
             </div>
             <div class="reveal" style="padding: var(--spacing-md);">
                 <h2 class="section-title" style="text-align: left;">The Process</h2>
